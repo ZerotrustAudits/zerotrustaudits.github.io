@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="en-us">
+    <meta name="description" content="0Trust">
+    <meta name="keywords" content="0trust, zero trust, trustless, ethereum, blockchain">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="application-name" content="0Trust">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="canonical" href="https://0trust.co/">
+    <title>0Trust</title>
+    <style>
+      html, body {
+        height: 100%;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgba(14,30,37,.54);
+      }
+      @media(max-width: 400px) {
+        body {
+          font-size: 1.1em;
+        }
+      }
+      .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 4em 1em;
+        background: #151D21;
+        color: white;
+      }
+      .logo {
+        max-width: 300px;
+      }
+      @media(max-width: 400px) {
+        .logo {
+          max-width: 200px;
+        }
+      }
+      h1 {
+        font-size: 2em;
+        font-weight: 500;
+        margin: 1em 0 0.4em 0;
+      }
+      .tagline {
+        color: #7f8288;
+        font-weight: 300;
+      }
+      .subscribe {
+        padding: 0 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #151D21;
+      }
+      .subscribe form {
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+      }
+      .lead {
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 1em;
+      }
+      .card {
+        background-color: #00000030;
+        border-radius: 8px;
+        padding: 2em;
+        width: 100%;
+        max-width: 600px;
+      }
+      .subscribe input[type="email"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: #151c20;
+        border: 2px solid #263035;
+        border-radius: 4px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #fff;
+        display: block;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-size: 16px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 24px;
+        margin: 0;
+        padding: 6px 14px;
+        -webkit-transition: -webkit-box-shadow ease-in-out .15s;
+        transition: -webkit-box-shadow ease-in-out .15s;
+        transition: box-shadow ease-in-out .15s;
+        transition: box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        width: 100%;
+        margin-bottom: 2em;
+      }
+      .subscribe input[type="email"]:focus {
+        border-color: #f4bb00;
+        -webkit-box-shadow: 0 0 1px 0 #f4bb00;
+        box-shadow: 0 0 1px 0 #f4bb00;
+        outline: 0;
+      }
+      .subscribe label {
+        font-size: 0.8em;
+        color: rgba(14,30,37,.54);
+        font-weight: 500;
+      }
+      .subscribe input[type="submit"] {
+        background: #38799e;
+        border: 0;
+        border-radius: 4px;
+        box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 2px 4px 0 rgba(14,30,37,.12);
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: inherit;
+        font-size: .9rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        font-weight: 500;
+        line-height: 1.618em;
+        outline: 0;
+        padding: .382em 1em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: all .15s ease;
+        vertical-align: middle;
+        z-index: 1;
+      }
+      .subscribe input[type="submit"]:hover {
+        background: #3786b3;
+      }
+      .footer {
+        color: #717e82;
+        display: block;
+        background: #151D21;
+        padding: 2em 1em;
+      }
+      .footer .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .footer div {
+        margin-bottom: 1em;
+      }
+      .footer .links {
+        display: flex;
+      }
+      @media (max-width: 400px) {
+        .footer .links {
+          flex-direction: column;
+        }
+      }
+      .footer a {
+        background: 0 0;
+        border-radius: 4px;
+        color: inherit;
+        font-weight: 600;
+        line-height: 24px;
+        padding: 8px;
+        text-decoration: none;
+        -webkit-transition: background-color,color .3s ease;
+        transition: background-color,color .3s ease;
+      }
+      .footer a:hover {
+        color: #fff;
+      }
+      .footer small {
+        font-size: .875em;
+        font-weight: 400;
+        margin-left: 8px;
+      }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39494276-14"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-39494276-14');
+    </script>
+  </head>
+  <body>
+    <div class="hero">
+      <h1><img class="logo" src="assets/0trust_text.png" alt="0Trust" /></h1>
+    </div>
+
+    <div class="subscribe" id="mc_embed_signup">
+      <div class="card">
+        <form action="https://0trust.us20.list-manage.com/subscribe/post?u=d9c2c62067656b71c724b9be6&amp;id=f987db77cf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <p class="lead">Subscribe to get updates</p>
+          <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email Address </label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="alice@example.com">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d9c2c62067656b71c724b9be6_f987db77cf" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="links">
+          <a rel="noopener noreferrer" target="_blank" href="https://github.com/0trustdev">Github</a>
+          <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/0trustdev">Twitter</a>
+        </div>
+        <small>© 2019 0Trust</small>
+      </div>
+    </footer>
+
+  </body>
+</html>
