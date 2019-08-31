@@ -1,6 +1,6 @@
-# 0Trust
+# Zerotrust Audits
 
-> Landing page for [0trust.co](https://0trust.co/)
+> Landing page for [zerotrustaudits.com](https://zerotrustaudits.com/)
 
 ## License
 
